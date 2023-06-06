@@ -1,0 +1,51 @@
+** NextJs is React framework for production ==>
+  
+  Next.js is a react framewark that enables you to build superfast and exiremely
+  user-friendly static websitﬁ:s, as well as full fledge production ready web
+  applications using react.
+
+
+  In fact, thanks to Automatic Siatic Optimzation, “static” and “dynamic” become
+  one now.
+
+  This feature allows Next.js to build hybrid applications (that runs on all devices) that contain both server-
+  rendered and statically generated pages. 
+
+  We get file based routing 
+  Nex help us to create Production ready app
+
+  ////////////////////////////////////////////////////////////////
+
+
+  ** Why NextJs =======>
+
+  The big reason to choose nextjs is its SEO Effeciency
+
+  It is using Server Side Rendering (SSR) and at the same time. It can be also a great Static Site Generator (SSG)
+
+  Google did not search in react website as ith has only div id = "root" in page source. But in next all html load so its better for seo
+
+  Next.js websites are superfast , easy to scan, and provide a great user experience and that's why Google will favor them above others and rank them higher.
+
+  file based routing
+
+  Support for css modules
+
+  Pre-rendering (better SEO)
+
+  Image Optimization ('next/image')
+
+  API Route ('pages/api/user.js)
+
+  Typrscript Support
+
+  Dev and Production based system
+
+  
+  ////////////////////////////////////////////////////////////////
+
+
+  ** To install Nextjs ========>
+
+  npx create-next-app appname
+
