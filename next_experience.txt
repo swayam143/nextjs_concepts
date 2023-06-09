@@ -1,7 +1,7 @@
-** NextJs is React framework for production ==>
+** NextJs is a React framework for production ==>
   
-  Next.js is a react framewark that enables you to build superfast and exiremely
-  user-friendly static websitﬁ:s, as well as full fledge production ready web
+  Next.js is a react framewark that enables you to build superfast and extremely
+  user-friendly static websites, as well as full fledge production ready web
   applications using react.
 
 
@@ -49,3 +49,59 @@
 
   npx create-next-app appname
 
+
+ ////////////////////////////////////////////////////////////////
+
+
+ to make about page than in app.js => new folder => about => new file page.js
+
+ in the router http://localhost:3000/about
+
+
+ ////////////////////////////////////////////////////////////////
+
+
+ to use css ==>
+
+ //make file in styles ==> name the file header.module.css
+
+ name the file header.module.css
+
+ than in header import styles from "./header.module.css"
+
+ than className={styles.classname}
+
+
+ ////////////////////////////////////////////////////////////////
+
+ to use Link ==>
+
+ import Link from "next/link";
+
+ <Link href="/home">home</Link>
+
+ for image (it is in public===> public=>vercel.svg)
+
+ <Image src="/vercel.svg" alt="image" width={150} height={100} />
+
+
+ ////////////////////////////////////////////////////////////////
+
+ In global css what css we write applied to all over
+
+ ////////////////////////////////////////////////////////////////
+
+ to add fontfamily 
+
+ import { Roboto } from "next/font/google";
+
+ const roboto = Roboto({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+<html lang="en" className={roboto.className}>
+
+
+////////////////////////////////////////////////////////////////
