@@ -105,3 +105,164 @@
 
 
 ////////////////////////////////////////////////////////////////
+
+to dynamic route like useparams
+
+like we have to give route ===> local:3000/blog/5
+
+so in blog folder ===> new folder [id] ==> in [id] new file page.jsx
+
+
+////////////////////////////////////////////////////////////////
+
+
+for grouping of pages like we dont want to give route so we can use ()
+
+ex ===> in folder dashboard ==> new folder name as (auth) ==> in this login and register
+
+so the route is local:3000/dashboard/login not local:3000/dashboard/auth/login
+
+
+////////////////////////////////////////////////////////////////
+
+
+so its good idea to make (pages) folder inside it make all page so it does not take route as well it is well managed
+
+
+////////////////////////////////////////////////////////////////
+
+In next js all pages rendered as a server Side
+
+but if we want  page to go client side (like header,footer shoul be run on client side) on the top of page write  "use client"
+
+we can check the page render server side or client that if we console.log("hello)==> if its console in browser than it client side and if it console in vs code terminal than ita s server side
+
+
+////////////////////////////////////////////////////////////////
+
+we can use react bootstrap in nextjs ==> npm install react-bootstrap bootstrap
+
+////////////////////////////////////////////////////////////////
+
+for right image use in next js
+
+<div className={styles.container_img}>
+<Img src="/logo.png" fill={true} alt="logo" />  //fill={true} fill width height according to container
+</div>
+
+.container_img {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+
+////////////////////////////////////////////////////////////////
+
+
+If we want to use image through external link it shows error 
+
+   <Image
+        src="https://images.pexels.com/photos/16944644/pexels-photo-16944644/free-photo-of-woman-walking-on-mountain-meadow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        fill={true}
+        alt="logo"
+      /> 
+
+It gives error... For This ===>
+In next.config.js
+
+const nextConfig = {
+  images: { domains: ["images.pexels.com"] },
+};
+
+we get the domain name on error come as well 
+
+
+////////////////////////////////////////////////////////////////
+
+
+
+TUTORIAL TO MAKE APP USING CHATGPT
+
+First use this command ==>
+
+I want you to become my prompt engineer. your goal is to help me craft the best possile prompt for my needs. 
+The prompt will be used by you, ChatGPT. You will follow the follwoing process:
+
+1. Your first response will be to ask me what the prompt should be about. I will provide my answer, but we will need to improve it througth continual iterations by going through the next steps.
+2. Based on my input, you will generate 2 sections. (a) Revised prompt (provide your rewritten prompt. It should be clear, concise, and easily understood by you), (b) Questions (ask any relevant questions pertaining to what additional information is needed from me to improve the prompt).
+3. We will continue this iterative process with me providing additonal information to you and you updating the prompt in the Revised prompt section until I say we are done.
+
+#
+
+You can use this type example like ===> i want to code an matrimonial app (for better result)
+
+# 
+
+please answer the prompt maximumb by 10 times . After that give prompt "ok go now"
+
+# 
+
+the steps provided than give prompt "provide all the steps in more details"
+
+# 
+
+than prompt "ok great now from above points make use cases"
+
+# 
+
+than prompt "ok now lets start with use case 1 with file folder structure and code "
+
+# 
+
+than prompt "than next step "
+
+# 
+
+than prompt "than next step "
+
+
+This is the basic prompt
+
+######################################################################
+
+** Now if any basic error occurs like you dont know how to use certain language than ask this question to chatgpt in another chat otherwise it focus on your this prompts and forgot the project steps...
+
+** to solve error related to project just copy paste whole code and ask chatgpt that i got this error
+
+
+
+
+
+
+
+
+
+
+##############################
+
+
+
+Incoming Rope Kit (1)==>
+
+Page1 ===> Chage Location , Export SKNF021 , Certificate of Inspection ,allocate NCR Number--- columns to add 
+
+what is  Export SKNF021 -- ye koi number rahega ya form
+
+Equipment Manifest Rope Access  --- ye b kis cheez ka access h aur kese dena hai
+
+Incoming Rope Kit (2)==>
+
+Page2 ===> Export SKNF018 - NCRForm , Import SKNF018 - NCRForm , SKNF021 , Certificate of Inspection--- columns to add 
+
+
+Outgoing Rope Kit (1)
+
+Page 1 ==>  Chage Location , Export SKNF021 , Certificate of Inspection ,allocate NCR Number , rope Access Requisition Form ,NCR Form  --- columns to add
+
+Page 2 ==> Allocate NCR Number , Import updated data -- I think it is the updated data h iave to fetch
+
+
+
+
+
