@@ -231,36 +231,7 @@ This is the basic prompt
 ** to solve error related to project just copy paste whole code and ask chatgpt that i got this error
 
 
-
-
-
-
-
-
-
-
 ##############################
-
-
-
-Incoming Rope Kit (1)==>
-
-Page1 ===> Chage Location , Export SKNF021 , Certificate of Inspection ,allocate NCR Number--- columns to add 
-
-what is  Export SKNF021 -- ye koi number rahega ya form
-
-Equipment Manifest Rope Access  --- ye b kis cheez ka access h aur kese dena hai
-
-Incoming Rope Kit (2)==>
-
-Page2 ===> Export SKNF018 - NCRForm , Import SKNF018 - NCRForm , SKNF021 , Certificate of Inspection--- columns to add 
-
-
-Outgoing Rope Kit (1)
-
-Page 1 ==>  Chage Location , Export SKNF021 , Certificate of Inspection ,allocate NCR Number , rope Access Requisition Form ,NCR Form  --- columns to add
-
-Page 2 ==> Allocate NCR Number , Import updated data -- I think it is the updated data h iave to fetch
 
 
 
